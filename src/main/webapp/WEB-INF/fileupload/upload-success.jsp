@@ -5,12 +5,12 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-	<title>Struts2 Showcase - Fileupload sample</title>
+	<title>MergeBase Target App - FileUpload</title>
 </head>
 
 <body>
 <div class="page-header">
-	<h1>Fileupload sample</h1>
+	<h1>Upload Photos</h1>
 </div>
 
 <div class="container-fluid">

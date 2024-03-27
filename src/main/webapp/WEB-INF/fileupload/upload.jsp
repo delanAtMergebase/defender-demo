@@ -1,16 +1,15 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title>Struts2 Showcase - Fileupload sample</title>
+    <title>MergeBase Target App - Upload Photos</title>
 </head>
 
 <body>
-    <div class="page-header">
-	    <h1>Fileupload sample</h1>
-    </div>
-
-    <div class="container-fluid">
-	    <div class="row-fluid">
+    <div class="container">
+		<div class="page-header">
+			<h1>Upload Photos</h1>
+		</div>
+		<div class="row-fluid">
 		    <div class="span12">
 			    <s:actionerror cssClass="alert alert-error"/>
 				<s:fielderror cssClass="alert alert-error"/>

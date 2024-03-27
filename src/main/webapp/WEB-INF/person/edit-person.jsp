@@ -1,23 +1,23 @@
 <%@taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-	<title>Struts2 Showcase - Person Manager Example</title>
+	<title>MergeBase Target App - Edit participants</title>
 </head>
 <body>
-<div class="page-header">
-	<h1>Person Manager Example</h1>
-</div>
 
-<div class="container-fluid">
+<div class="container">
+	<div class="page-header">
+		<h1>Edit participants</h1>
+	</div>
 	<div class="row-fluid">
 		<div class="span3">
 			<ul class="nav nav-tabs nav-stacked">
 				<s:url id="listpeopleurl" action="list-people" namespace="/person" />
-				<li><s:a href="%{listpeopleurl}">List all people</s:a> </li>
+				<li><s:a href="%{listpeopleurl}">List all participants</s:a> </li>
 				<s:url id="editpersonurl" action="edit-person" namespace="/person" />
-				<li class="active"><s:a href="%{editpersonurl}">Edit people</s:a></li>
+				<li class="active"><s:a href="%{editpersonurl}">Edit participants</s:a></li>
 				<s:url id="newpersonurl" action="new-person" namespace="/person" method="input"/>
-				<li><s:a href="%{newpersonurl}">Create a new person</s:a></li>
+				<li><s:a href="%{newpersonurl}">Add a new participant</s:a></li>
 			</ul>
 		</div>
 		<div class="span9">

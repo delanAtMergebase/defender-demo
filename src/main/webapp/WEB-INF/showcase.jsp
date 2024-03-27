@@ -17,9 +17,8 @@
 			<div class="span12">
 
 				<div class="hero-unit">
-					<h1>Employee Manager App</h1>
-					<p>The Struts Showcase demonstrates a variety of use cases and tag usages. Essentially, the application exercises various framework features in isolation. The Showcase is not meant as a "best practices" example.</p>
-					<p>For more "by example" solutions, see the <a class="btn btn-primary btn-large">Struts Cookbook &raquo;</a> pages.</p>
+					<h1>Event Manager app</h1>
+					<p>Manage participants in your event and upload their photos!</p>
 				</div>
 
 			</div>

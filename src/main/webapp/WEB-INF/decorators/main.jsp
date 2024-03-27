@@ -78,14 +78,32 @@
 	<div class="navbar-inner">
 		<div class="container-fluid">
 			<div class="nav-collapse">
+				<a class="brand" style="padding-top: 0; padding-bottom: 0;"  href="#">
+					<img src="${pageContext.request.contextPath}/img/mb-logo-and-name.png" style="max-height: 40px" alt="mb-logo"/>
+				</a>
 				<ul class="nav">
 					<li><s:a value="/index.action"><i class="icon-home"></i>Home</s:a></li>
 					<li>
-						<s:a action="person!list" namespace="person">Employee Manager</s:a>
+						<s:a action="list" namespace="/person">Participant Manager</s:a>
 					</li>
-					<li><s:a value="/interactive/index.action">Interactive Demo</s:a></li>
-					<li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Photos<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu">
+								<a href="#">Photo Upload</a>
+								<ul class="dropdown-menu">
+									<li>
+										<s:url var="url" action="upload" namespace="/fileupload"/>
+										<s:a href="%{#url}">Upload single photo</s:a>
+									</li>
+									<li>
+										<s:url var="url" action="multipleUploadUsingList" namespace="/fileupload"/>
+										<s:a href="%{#url}">Upload multiple photos</s:a>
 
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</li>
 				</ul>
 

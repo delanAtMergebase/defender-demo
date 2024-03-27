@@ -5,15 +5,16 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-	<title>Struts2 Showcase - Fileupload sample - Multiple fileupload using List</title>
+	<title> MergeBase Target App - Upload Multiple Photos</title>
 </head>
 
 <body>
-<div class="page-header">
-	<h1>Fileupload sample - Multiple fileupload using List</h1>
-</div>
 
-<div class="container-fluid">
+<div class="container">
+	<div class="page-header">
+		<h1>Upload Multiple Photos</h1>
+	</div>
+
 	<div class="row-fluid">
 		<div class="span12">
 
