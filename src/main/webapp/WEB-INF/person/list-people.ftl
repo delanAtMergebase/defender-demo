@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Struts2 Showcase - Person Manager Example - All People</title>
+	<title>Employee manager</title>
 </head>
 <body>
 <div class="page-header">

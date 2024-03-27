@@ -6,7 +6,11 @@
 <!-- START SNIPPET: xworkSample -->
 
 <struts>
-    <package name="person" extends="struts-default" namespace="/person" />
+	<package name="person" extends="struts-default" namespace="/person" >
+		<action name="list" class="org.apache.struts2.showcase.person.ListPeopleAction">
+			<result name="success" type="freemarker">/WEB-INF/person/list-people.ftl</result>
+		</action>
+	</package>
 </struts>
 
 <!--  END SNIPPET: xworkSample -->
