@@ -15,6 +15,6 @@ ENV MB_ENVIRONMENT prod
 ENV JAVA_OPTS -Dmb.interval=5000
 
 
-RUN mvn clean package ; java -jar "mergebase-RuntimeDemo1.jar" --name="event-manager-app"  --inoculate target/demo-app.war;  cp target/*.war /usr/local/tomcat/webapps/
+RUN mvn clean package ; java -jar "mergebase-RuntimeDemo.jar" --name="event-manager-app"  --inoculate target/demo-app.war;  cp target/*.war /usr/local/tomcat/webapps/
 
 CMD ["catalina.sh","run"]
